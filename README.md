@@ -16,17 +16,19 @@ The 16bit_MicroComputer_CPU is a 16-bit processor based on the Von Neumann archi
 * [Instruction Set](#instruction-set)
 * [Quick start](#quick-start)
 
+
   * [Prerequisites](#prerequisites)
+
   * [Running the Calculator](#running-the-calculator)
+  * [Simulation Ouput](#simulation-output)
   * [Running the LED Demo](#running-the-led-demo)
   * [With Arduino Hardware](#with-arduino-hardware)
 * [Simulation output](#simulation-output)
 * [Customizing and extending](#customizing-and-extending)
-* [Example programs](#example-programs)
+
 * [Future enhancements](#future-enhancements)
-* [Contributing](#contributing)
+
 * [License](#license)
-* [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -181,6 +183,7 @@ cd Assembler
 python Assembler_v2.py LEDDemo.asm
 python led_bridge.py
 ````
+````
 
 ````
 
@@ -226,7 +229,7 @@ Hardware: LED circuit (breadboard)
 After the firmware is uploaded, run the Python bridge to stream LED data to the Arduino:
 
 ````
-
+````
 Notes and troubleshooting:
 
 * Make sure the serial port configured in `led_bridge.py` matches the port your Arduino uses (e.g., `COM3`).
@@ -264,3 +267,4 @@ Planned features that would make the architecture more complete:
 ## License
 
 This project is released under the MIT License. See the `LICENSE` file for full terms.
+
