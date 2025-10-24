@@ -183,9 +183,6 @@ cd Assembler
 python Assembler_v2.py LEDDemo.asm
 python led_bridge.py
 ````
-````
-
-````
 
 ### With Arduino Hardware
 - Open the `16bit` folder in VS Code with the PlatformIO extension and press the **Upload** button in the PlatformIO toolbar. If command-line PlatformIO fails, try specifying the environment: `pio run -e <env> -t upload`.
@@ -226,10 +223,8 @@ Hardware: LED circuit (breadboard)
 - Never drive an LED without a series resistor.
 - Verify the pin assignment in `16bit/src/main.cpp` matches the wiring before uploading.
 
-After the firmware is uploaded, run the Python bridge to stream LED data to the Arduino:
+After the firmware is uploaded, run the Python bridge to stream LED data to the Arduino.
 
-````
-````
 Notes and troubleshooting:
 
 * Make sure the serial port configured in `led_bridge.py` matches the port your Arduino uses (e.g., `COM3`).
@@ -267,6 +262,7 @@ Planned features that would make the architecture more complete:
 ## License
 
 This project is released under the MIT License. See the `LICENSE` file for full terms.
+
 
 
 
