@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge\&logo=arduino\&logoColor=white)
 
-#### The 16bit_MicroComputer_CPU is a 16-bit processor based on the Von Neumann architecture, meticulously implemented using Verilog HDL. It comes equipped with a Python-based assembler for streamlined program development and leverages an ALU for efficient arithmetic and logical operations. The processor supports memory-mapped I/O, enabling seamless interaction with external devices. Additionally, an Arduino-controlled LED interface provides real-time visualization of instruction execution, data movement, and low-level hardware computations, making it an ideal platform for both learning and experimenting with processor design and embedded systems.
+### The 16bit_MicroComputer_CPU is a 16-bit processor based on the Von Neumann architecture, meticulously implemented using Verilog HDL. It comes equipped with a Python-based assembler for streamlined program development and leverages an ALU for efficient arithmetic and logical operations. The processor supports memory-mapped I/O, enabling seamless interaction with external devices. Additionally, an Arduino-controlled LED interface provides real-time visualization of instruction execution, data movement, and low-level hardware computations, making it an ideal platform for both learning and experimenting with processor design and embedded systems.
 ---
 
 ## Table of contents
@@ -262,6 +262,7 @@ Planned features that would make the architecture more complete:
 ## License
 
 This project is released under the MIT License. See the `LICENSE` file for full terms.
+
 
 
 
