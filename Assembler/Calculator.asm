@@ -1,0 +1,36 @@
+; Calculator Program - Human Readable Format
+; Using instructions your assembler recognizes
+
+; Test case: 8 and 3
+
+; ADDITION: 8 + 3 = 11
+LOADA_IN 8
+LOADB_IN 3
+ADD
+OUTA
+
+; SUBTRACTION: 8 - 3 = 5  
+LOADA_IN 8
+LOADB_IN 3
+SUB
+OUTA
+
+; MULTIPLICATION: 8 * 3 = 24
+LOADA_IN 8
+LOADB_IN 3
+MULT
+OUTA
+
+; DIVISION: 8 / 3 = 2
+LOADA_IN 8
+LOADB_IN 3
+DIV
+OUTA
+
+; MODULO: 8 % 3 = 2
+LOADA_IN 8
+LOADB_IN 3
+MOD
+OUTA
+
+HALT

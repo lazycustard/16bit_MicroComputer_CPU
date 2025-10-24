@@ -1,0 +1,13 @@
+module PC(
+    input clk,
+    input reset,
+    input [15:0] NextPC,
+    output reg [15:0] Q
+);
+
+always @(posedge clk or posedge reset) begin
+    if(reset) Q <= 16'b0;
+    else Q <= NextPC;
+end
+
+endmodule
