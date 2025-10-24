@@ -261,7 +261,8 @@ Planned features that would make the architecture more complete:
 
 ## License
 
-This project is released under the MIT License. See the `LICENSE` file for full terms.
+This project is licensed under the GNU General Public License v3.0 (GPLv3) - see the [LICENSE](LICENSE) file for details.
+
 
 
 
