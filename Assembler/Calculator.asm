@@ -1,5 +1,4 @@
 
-; Test case: 8 and 3
 
 ; ADDITION: 8 + 3 = 11
 LOADA_IN 8
