@@ -192,7 +192,7 @@ Hardware: LED circuit (breadboard)
 
 **Components**
 
-- USB cable and Arduino board (Uno / ATmega328P assumed)
+- USB cable and Arduino board (Uno )
 - 10 LEDs
 - 10 resistors (220–470 Ω; 330 Ω recommended)
 - Breadboard and jumper wires
@@ -265,6 +265,7 @@ Planned features that would make the architecture more complete:
 ## License
 
 This project is licensed under the GNU General Public License v3.0 (GPLv3) - see the [LICENSE](LICENSE) file for details.
+
 
 
 
