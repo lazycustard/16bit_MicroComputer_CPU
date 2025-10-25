@@ -42,10 +42,9 @@ class InteractiveCalculator:
         """Run the simulation with user numbers"""
         print(" Running simulation...")
         
-        # Go to Verilog directory
         os.chdir("../VerilogModules")
         
-        # Compile
+        
         result = subprocess.run([
             "iverilog", "-o", "CPU_tb.out", "*.v"
         ], capture_output=True, text=True)
@@ -54,15 +53,12 @@ class InteractiveCalculator:
             print(f" Compilation failed: {result.stderr}")
             return False
         
-        # Run simulation
         result = subprocess.run(["vvp", "CPU_tb.out"], capture_output=True, text=True)
         
-        # Print clean output
         print("\n" + "=" * 50)
         print("SIMULATION RESULTS")
         print("=" * 50)
         
-        # Extract and display only results
         for line in result.stdout.split('\n'):
             if "USER CALCULATOR:" in line:
                 print(line)
