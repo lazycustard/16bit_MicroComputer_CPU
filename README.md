@@ -219,7 +219,7 @@ Hardware: LED circuit (breadboard)
 4. Use a 220–470 Ω resistor in series with each LED (330 Ω is a good default).
 5. Power the Arduino via the USB cable. The board will supply 5 V to the digital pins while running.
 
-https://github.com/user-attachments/assets/46612f8f-fdd9-472d-9833-4e5993349fd2 
+https://github.com/user-attachments/assets/0d64eb9d-c7a4-4f46-92bf-199a05c7da91
 
 **Safety and notes**
 
@@ -265,6 +265,7 @@ Planned features that would make the architecture more complete:
 ## License
 
 This project is licensed under the GNU General Public License v3.0 (GPLv3) - see the [LICENSE](LICENSE) file for details.
+
 
 
 
