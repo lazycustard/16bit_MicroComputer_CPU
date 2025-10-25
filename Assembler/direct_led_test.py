@@ -5,7 +5,6 @@ import sys
 def test_leds():
     """Test LEDs directly without needing Arduino code upload"""
     
-    # LED sequence matching your assembly
     led_sequence = [
         0b0000000001,  # LED 0
         0b0000000010,  # LED 1
@@ -20,10 +19,9 @@ def test_leds():
         0b0000000000,  # All OFF
     ]
     
-    # Try to connect to Arduino
     try:
         ser = serial.Serial('COM3', 115200, timeout=1)
-        time.sleep(2)  # Wait for Arduino to reset
+        time.sleep(2)  
         print("Connected to Arduino")
         
         for i, pattern in enumerate(led_sequence):
@@ -33,14 +31,13 @@ def test_leds():
             data = bytes([pattern & 0xFF, (pattern >> 8) & 0xFF])
             ser.write(data)
             
-            # Wait for acknowledgment
             ack = ser.read(1)
             if ack == b'\xAA':
                 print("  ✓ Acknowledged")
             else:
                 print("  ✗ No acknowledgment")
             
-            time.sleep(1)  # 1 second delay
+            time.sleep(1)  
             
         ser.close()
         
