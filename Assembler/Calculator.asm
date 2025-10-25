@@ -1,5 +1,3 @@
-; Calculator Program - Human Readable Format
-; Using instructions your assembler recognizes
 
 ; Test case: 8 and 3
 
