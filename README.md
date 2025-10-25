@@ -149,6 +149,7 @@ LED output values in hex/decimal
 
 ### **GTKWave Signals**
 When viewing `OutputFiles/dump.vcd` in GTKWave, observe these signals:
+<img width="1642" height="384" alt="Image" src="https://github.com/user-attachments/assets/f443258b-57b9-47ee-8375-fd98fbe61010" />
 
 **CPU Control:**
 - `clk` - System clock
@@ -264,6 +265,7 @@ Planned features that would make the architecture more complete:
 ## License
 
 This project is licensed under the GNU General Public License v3.0 (GPLv3) - see the [LICENSE](LICENSE) file for details.
+
 
 
 
